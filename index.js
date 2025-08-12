@@ -8,7 +8,7 @@ app.use(express.json());
 
 const pool = new Pool({
   connectionString:
-    "postgresql://neondb_owner:npg_8vhkeK2qTulU@ep-shy-morning-acuakfk6-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require",
+    "postgresql://neondb_owner:npg_4wOJRAf1jExy@ep-divine-star-acgfhauf-pooler.sa-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require",
   ssl: {
     rejectUnauthorized: false,
   },
